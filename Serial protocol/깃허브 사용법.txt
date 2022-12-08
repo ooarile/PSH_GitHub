@@ -1,7 +1,0 @@
-업로드 하는법 : https://velog.io/@debut12/Github-%EC%97%AC%EB%9F%AC-%EB%AA%85%EA%B3%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0
-
-pull : https://sosoeasy.tistory.com/406
-GitHub -> Local로 내려받기
-
-GitHub 자료 삭제 법 : https://ssimplay.tistory.com/403
-
