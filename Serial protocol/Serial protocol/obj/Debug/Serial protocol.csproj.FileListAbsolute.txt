@@ -1,0 +1,71 @@
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serial protocol.exe.config
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serial protocol.exe
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serial protocol.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\ControlExtensions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\log4net.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Async.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Console.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Buffers.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.ComponentModel.Annotations.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.IO.Pipelines.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Memory.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Numerics.Vectors.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.ValueTuple.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\ControlExtensions.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\log4net.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Pipelines.Sockets.Unofficial.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Async.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Console.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Buffers.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.IO.Pipelines.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Memory.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Numerics.Vectors.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\bin\Debug\System.ValueTuple.xml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.AssemblyReference.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.SuggestedBindingRedirects.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\MainWindow.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\View\SerialSettingForm.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\View\SocketUI.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\App.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol_MarkupCompile.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol_MarkupCompile.lref
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\MainWindow.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\View\SerialSettingForm.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\View\SocketUI.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.g.resources
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial_protocol.Properties.Resources.resources
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.GenerateResource.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.CoreCompileInputs.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.CopyComplete
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.exe
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.pdb

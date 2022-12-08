@@ -1,0 +1,49 @@
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.csproj.AssemblyReference.cache
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\SlideCheckBox\SlideCheckBox.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\DateTimePicker\DateTimePicker.g.cs
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\TimeControl\TimeControl.g.cs
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ZoomImage\ZoomImage.g.cs
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions_MarkupCompile.cache
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions_MarkupCompile.lref
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\bin\Debug\ControlExtensions.dll
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\bin\Debug\ControlExtensions.pdb
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\bin\Debug\SpaceX.dll
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\bin\Debug\SpaceX.pdb
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\AutoScrollViewer\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\AutoScrollListBox\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\DateTimePicker\DateTimePicker.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\AutoScrollDataGrid\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ThumbnailListView\ThumbnailListView.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\TimeControl\TimeControl.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ZoomImage\ZoomImage.baml
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.g.resources
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.Properties.Resources.resources
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.csproj.GenerateResource.cache
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.csproj.CoreCompileInputs.cache
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.csproj.CopyComplete
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.dll
+D:\01Automation\SVN\trunk\Study\2022_LogisticScannerPlatform\YTS\Controls\obj\Debug\ControlExtensions.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\bin\Debug\ControlExtensions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\bin\Debug\ControlExtensions.pdb
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.csproj.AssemblyReference.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\SlideCheckBox\SlideCheckBox.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\DateTimePicker\DateTimePicker.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\TimeControl\TimeControl.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ZoomImage\ZoomImage.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions_MarkupCompile.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions_MarkupCompile.lref
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\AutoScrollViewer\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\AutoScrollListBox\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\DateTimePicker\DateTimePicker.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\AutoScrollDataGrid\Themes\Generic.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ThumbnailListView\ThumbnailListView.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\TimeControl\TimeControl.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ZoomImage\ZoomImage.baml
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.g.resources
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.Properties.Resources.resources
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.csproj.GenerateResource.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.csproj.CoreCompileInputs.cache
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.dll
+D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\Controls\obj\Debug\ControlExtensions.pdb

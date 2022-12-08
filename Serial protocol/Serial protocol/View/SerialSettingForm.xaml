@@ -1,0 +1,93 @@
+﻿<Window x:Class="Serial_protocol.View.SerialSettingForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serial_protocol"        
+        xmlns:vm="clr-namespace:Serial_protocol.ViewModel"
+        mc:Ignorable="d"
+        Title="SerialSettingForm" Height="450" Width="800" WindowState="Normal" ResizeMode="CanResize" WindowStyle="None">
+
+    <!--<Window.DataContext>
+        <vm:SerialSettingFormViewModel/>
+    </Window.DataContext>-->
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="317*"/>
+            <ColumnDefinition Width="317*"/>
+            <ColumnDefinition Width="155*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Port configuration" Margin="30,30,30,30"  Grid.Column="0">
+            <Grid Height="248">
+                <Label Content="Port" HorizontalAlignment="Left" Margin="14,5,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="90,7,22,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding ComPortList}" Text="{Binding ComPort}"/>
+                
+                <Label Content="Baut rate" HorizontalAlignment="Left" Margin="14,40,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="90,42,22,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding BoutRateList}" Text="{Binding BuadRate}"/>
+                
+                <Label Content="Data bits" HorizontalAlignment="Left" Margin="14,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="90,77,22,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding DataBitsList}" Text="{Binding DataBits}"/>
+                
+                <Label Content="Parity" HorizontalAlignment="Left" Margin="14,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="90,112,22,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding ParityList}" Text="{Binding Parity}"/>
+                
+                <Label Content="Stop bits" HorizontalAlignment="Left" Margin="14,145,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="90,147,22,0" VerticalAlignment="Top" Width="120" ItemsSource="{Binding StopBitsList}" Text="{Binding StopBits}"/>
+                
+                <Label Content="Hardware Handshaking" HorizontalAlignment="Left" Margin="14,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.544,0.755"/>
+                <ComboBox Margin="14,211,22,0" VerticalAlignment="Top" ItemsSource="{Binding HandshakeList}" Text="{Binding Handshake}"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Options" Margin="30,30,30,30" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid VerticalAlignment="Center" Height="140" Grid.Row="0">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <RadioButton Grid.Row="1" Content="Append nothing" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="30,0,0,0" IsChecked="{Binding AppendNothing}"  />
+                        <RadioButton Grid.Row="2" Content="Append CR" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding AppendCR}" />
+                        <RadioButton Grid.Row="3" Content="Append LR" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding AppendLR}"/>
+                        <RadioButton Grid.Row="4" Content="Append CR-LF" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding AppendCRLR}"/>
+                    </Grid>
+                </Grid>
+                <Grid VerticalAlignment="Center" Height="140" Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <CheckBox Grid.Row="1" Content="Hex ouput" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="30,0,0,0" IsChecked="{Binding HexOutput}" />
+                    <CheckBox Grid.Row="2" Content="Monospaced font" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding MonoFont}" />
+                    <CheckBox Grid.Row="3" Content="Local echo" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding LocalEcho}" />
+                    <CheckBox Grid.Row="4" Content="Stay on top" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding StayOnTop}" />
+                    <CheckBox Grid.Row="5" Content="Filter case sensitive" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30,0,0,0" IsChecked="{Binding FilterUseCase}" />
+                </Grid>
+            </Grid>
+        </GroupBox>
+
+        <Grid Grid.Column="1" Grid.ColumnSpan="3" Margin="317,0,0,0">
+            <Button  Content="OK" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Height="54" Width="76" Command="{Binding saveCommand}"/>
+
+            <Button Content="Cancel" HorizontalAlignment="Center" Margin="0,150,0,0"
+                            VerticalAlignment="Top" Height="54" Width="76" Command="{Binding closeCommand}" >
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

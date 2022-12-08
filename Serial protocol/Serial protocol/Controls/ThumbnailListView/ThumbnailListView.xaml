@@ -1,0 +1,82 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:ctext="clr-namespace:ControlExtensions"
+					xmlns:spacex="clr-namespace:WpfToolkit.Controls;assembly=SpaceX"
+					>
+
+	<!-- 스타일로 정의되어 있으므로 프로젝트 리소스에 추가해줄 것 -->
+	<!-- 	<xxxxxxxxxxx.Resources> -->
+	<!-- 		<ResourceDictionary> -->
+	<!-- 			<ResourceDictionary.MergedDictionaries> -->
+	<!-- 				<ResourceDictionary Source="pack://application:,,,/ControlExtensions;component/ThumbnailListView/ThumbnailListView.xaml"/> -->
+	<!-- 			</ResourceDictionary.MergedDictionaries> -->
+	<!-- 		</ResourceDictionary> -->
+	<!-- 	</xxxxxxxxxxx.Resources> -->
+
+	<SolidColorBrush x:Key="BackgroundBrush" Color="#ff2d2d30"/>
+	<SolidColorBrush x:Key="FontColorBrush" Color="Ivory"/>
+
+	<!-- <Style TargetType="{x:Type spacex:VirtualizingWrapPanelWithItemExpansion}" x:Key="WrapPanelStyle"> -->
+		<Style TargetType="{x:Type WrapPanel}" x:Key="WrapPanelStyle">
+		<!-- <Style TargetType="{x:Type local:VirtualizingWrapPanel}" x:Key="WrapPanelStyle"> -->
+		<!-- // 	<Style TargetType="{x:Type WrapPanel}" x:Key="WrapPanelStyle"> -->
+		<!-- // 		<Setter Property="ItemSize" -->
+		<!-- <Setter Property="ItemSize" Value="{Binding ThumbnailItemSize}"/> -->
+		<Setter Property="ItemWidth" Value="{Binding ThumbnailItemWidth}"/>
+		<!-- <Setter Property="ItemHeight" Value="{Binding ThumbnailItemWidth}"/> -->
+		<Setter Property="Background" Value="Transparent"/>
+		<!-- <Setter Property="StretchItems" Value="True"/> -->
+		<!-- <Setter Property="MinWidth" Value="72"/> -->
+		<!-- <Setter Property="Width" Value="72"/> -->
+	</Style>
+
+	<Style TargetType="{x:Type ListView}" BasedOn="{StaticResource {x:Type ListBox}}">
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="BorderBrush" Value="Transparent"/>
+		<Setter Property="BorderThickness" Value="3"/>
+		<Setter Property="IsSynchronizedWithCurrentItem" Value="True"/>
+		<Setter Property="KeyboardNavigation.DirectionalNavigation" Value="Local"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate>
+					<Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="{TemplateBinding Margin}">
+						<ScrollViewer Margin="{TemplateBinding Padding}">
+							<!-- 여기 -->
+							<WrapPanel Style="{StaticResource WrapPanelStyle}" IsItemsHost ="True" Width="{Binding ActualWidth, RelativeSource = {RelativeSource AncestorType=ScrollContentPresenter}}"/>
+							<!-- <spacex:VirtualizingWrapPanelWithItemExpansion Style="{StaticResource WrapPanelStyle}" IsItemsHost ="True" Width="{Binding ActualWidth, RelativeSource = {RelativeSource AncestorType=ScrollContentPresenter}}" VirtualizingPanel.VirtualizationMode="Recycling"/> -->
+							<!-- <local:VirtualizingWrapPanel Style="{StaticResource WrapPanelStyle}" IsItemsHost ="True" Width="{Binding ActualWidth, RelativeSource = {RelativeSource AncestorType=ScrollContentPresenter}}"/> -->
+							<!-- <WrapPanel Style="{StaticResource WrapPanelStyle}" IsItemsHost ="True" Width="{Binding ActualWidth, RelativeSource = {RelativeSource AncestorType=ScrollContentPresenter}}"/> -->
+						</ScrollViewer>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style TargetType='{x:Type ListViewItem}' BasedOn='{StaticResource {x:Type ListBoxItem}}'>
+		<Setter Property='Foreground' Value='Transparent'/>
+		<Setter Property='Padding' Value='2'/>
+		<Setter Property='Margin' Value='0'/>
+		<Setter Property='HorizontalContentAlignment' Value='Center'/>
+		<Setter Property="ContentTemplate">
+			<Setter.Value>
+				<DataTemplate>
+					<StackPanel VerticalAlignment="Top" RenderOptions.BitmapScalingMode="HighQuality">
+						<Image Source="{Binding ImageSource}"/>
+						<!-- Stretch="None"/> -->
+						<TextBlock Text="{Binding ImageLabel}"
+								   Foreground="{Binding LabelBrush}"
+								   HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+								   TextWrapping="Wrap"
+								   FontSize="{Binding FontSize}"
+								   />
+					</StackPanel>
+				</DataTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type ctext:ThumbnailListView}, ResourceId=ThumbnailListViewKey}"/>
+	<Style x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type ctext:ThumbnailListView}, ResourceId=ThumbnailListViewItemKey}"/>
+
+</ResourceDictionary>

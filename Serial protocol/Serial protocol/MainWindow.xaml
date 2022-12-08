@@ -1,0 +1,184 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serial_protocol"
+        xmlns:vm="clr-namespace:Serial_protocol.ViewModel"    
+        xmlns:vw="clr-namespace:Serial_protocol.View"
+        xmlns:controlExtensions="clr-namespace:ControlExtensions;assembly=ControlExtensions"
+        x:Class="Serial_protocol.MainWindow"
+        mc:Ignorable="d"        
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
+
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/ControlExtensions;component/SlideCheckBox/SlideCheckBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width ="65*"/>
+            <ColumnDefinition Width ="376*"/>
+            <ColumnDefinition Width ="86*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="3">
+            <Label Content="RS232" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,64,0,0" />
+            <Button Content="SETUP" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Width="70" Command="{Binding openSerialSettingForm}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            
+            <Label Content="Socket" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" Width="Auto" Visibility="Hidden"/>
+            <Button Content="SETUP" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Width="70" Visibility="Hidden">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="Blue"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="DISCONT" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Width="70" Visibility="Hidden">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="Blue"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="DisConnect" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" Width="70" Command="{Binding SerialDisconnect}">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="Connect" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Width="70" Command="{Binding Serialconnect}">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="0" Grid.RowSpan="3">
+            
+
+           
+            <TabControl>
+                <TabItem Header="Serial">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="8*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <CheckBox Grid.Row="0" Style="{StaticResource BlueSwitchStyle}" IsChecked="{Binding IsAutoScroll}" HorizontalAlignment="Right" Content="  Auto Scroll  "/>
+
+                        <Grid Background="#FFE5E5E5" Grid.Row="1">
+                            <controlExtensions:AutoScrollDataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                                          ItemsSource="{Binding Data}"
+                                                          EnableRowVirtualization="True" IsReadOnly="True" CanUserAddRows="False"
+                                                          AutoGenerateColumns="False" CanUserResizeColumns="True"
+                                                          VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                                                          HorizontalGridLinesBrush="#ffdddddd" VerticalGridLinesBrush="#ffdddddd"
+                                                          ColumnHeaderHeight="35" RowHeight="35" MinRowHeight="35" HeadersVisibility="Column"
+                                                           ScrollViewer.HorizontalScrollBarVisibility="Hidden" FontSize="15"
+                                                          IsAutoScroll="{Binding IsAutoScroll}">
+
+                                <controlExtensions:AutoScrollDataGrid.Resources>
+                                    <Style x:Key="centerText" TargetType="{x:Type TextBlock}">
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    </Style>
+                                    <Style x:Key="leftText" TargetType="{x:Type TextBlock}">
+                                        <Setter Property="VerticalAlignment" Value="Center"/>
+                                        <Setter Property="Margin" Value="10,0,0,0"/>
+                                    </Style>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                    </Style>
+                                </controlExtensions:AutoScrollDataGrid.Resources>
+
+                                <controlExtensions:AutoScrollDataGrid.Columns>
+                                    <DataGridTextColumn ElementStyle="{StaticResource centerText}" Width="180" Header="Time" Binding="{Binding Time, StringFormat=MM/dd HH:mm:ss.fff}"/>
+                                    <DataGridTextColumn ElementStyle="{StaticResource centerText}" Width="380" Header="CONTENT" Binding="{Binding Content}"/>
+                                </controlExtensions:AutoScrollDataGrid.Columns>
+
+
+                            </controlExtensions:AutoScrollDataGrid>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width ="467*"/>
+                                <ColumnDefinition Width ="104*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                         Width="Auto" Text="{Binding SendContent, Mode=OneWayToSource}" />
+                            <Button Grid.Column="1" Content="Send" HorizontalAlignment="Center" VerticalAlignment="Center" Width="80" Height="30" Command="{Binding sendCommand}" />
+                        </Grid>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Socket">
+                    <Grid Background="#FFE5E5E5">
+                        <Frame Source="View\SocketUI.xaml"></Frame>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2" >
+            <Button Content="Close" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="100" Command="{Binding closeCommand}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="FontWeight" Value="ExtraBold"/>
+                                <Setter Property="Foreground" Value="red"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
