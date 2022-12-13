@@ -1,0 +1,10 @@
+C:\PSH_Github\practice\practice\bin\Debug\practice.exe.config
+C:\PSH_Github\practice\practice\bin\Debug\practice.exe
+C:\PSH_Github\practice\practice\bin\Debug\practice.pdb
+C:\PSH_Github\practice\practice\obj\Debug\practice.csproj.AssemblyReference.cache
+C:\PSH_Github\practice\practice\obj\Debug\practice.csproj.SuggestedBindingRedirects.cache
+C:\PSH_Github\practice\practice\obj\Debug\practice.Properties.Resources.resources
+C:\PSH_Github\practice\practice\obj\Debug\practice.csproj.GenerateResource.cache
+C:\PSH_Github\practice\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+C:\PSH_Github\practice\practice\obj\Debug\practice.exe
+C:\PSH_Github\practice\practice\obj\Debug\practice.pdb

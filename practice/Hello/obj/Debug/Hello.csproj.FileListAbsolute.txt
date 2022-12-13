@@ -1,0 +1,8 @@
+C:\PSH_Github\practice\Hello\bin\Debug\Hello.exe.config
+C:\PSH_Github\practice\Hello\bin\Debug\Hello.exe
+C:\PSH_Github\practice\Hello\bin\Debug\Hello.pdb
+C:\PSH_Github\practice\Hello\obj\Debug\Hello.csproj.AssemblyReference.cache
+C:\PSH_Github\practice\Hello\obj\Debug\Hello.csproj.SuggestedBindingRedirects.cache
+C:\PSH_Github\practice\Hello\obj\Debug\Hello.csproj.CoreCompileInputs.cache
+C:\PSH_Github\practice\Hello\obj\Debug\Hello.exe
+C:\PSH_Github\practice\Hello\obj\Debug\Hello.pdb
