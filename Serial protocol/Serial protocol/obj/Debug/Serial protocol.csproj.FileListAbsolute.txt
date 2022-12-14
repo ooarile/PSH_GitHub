@@ -69,3 +69,74 @@ D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial
 D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.CopyComplete
 D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.exe
 D:\01Automation\SVN\trunk\Study\Serial protocol\Serial protocol\obj\Debug\Serial protocol.pdb
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serial protocol.exe.config
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serial protocol.exe
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serial protocol.pdb
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\ControlExtensions.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\log4net.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Pipelines.Sockets.Unofficial.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Async.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Console.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Buffers.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.ComponentModel.Annotations.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.IO.Pipelines.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Memory.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Numerics.Vectors.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.ValueTuple.dll
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\ControlExtensions.pdb
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\log4net.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.pdb
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Microsoft.Toolkit.Mvvm.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Pipelines.Sockets.Unofficial.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Async.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.Console.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.pdb
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\Serilog.Sinks.File.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Buffers.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.IO.Pipelines.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Memory.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Numerics.Vectors.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\PSH_Github\Serial protocol\Serial protocol\bin\Debug\System.ValueTuple.xml
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.AssemblyReference.cache
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.SuggestedBindingRedirects.cache
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\MainWindow.g.cs
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\View\SerialSettingForm.g.cs
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\View\SocketUI.g.cs
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\App.g.cs
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol_MarkupCompile.cache
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol_MarkupCompile.lref
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\MainWindow.baml
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\View\SerialSettingForm.baml
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\View\SocketUI.baml
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.g.resources
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial_protocol.Properties.Resources.resources
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.GenerateResource.cache
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.CoreCompileInputs.cache
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.csproj.CopyComplete
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.exe
+C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\Serial protocol.pdb
