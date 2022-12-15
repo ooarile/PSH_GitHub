@@ -46,18 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3_abstract, override_Ex_추상클래스\abstractClass.cs" />
-    <Compile Include="4_property\property.cs" />
-    <Compile Include="5_배열과 컬렉션 그리고 인덱서\Class1.cs" />
-    <Compile Include="6_일반화 메소드\Method.cs" />
+    <Compile Include="03_abstract, override_Ex_추상클래스\abstractClass.cs" />
+    <Compile Include="04_property\property.cs" />
+    <Compile Include="05_배열과 컬렉션 그리고 인덱서\Class1.cs" />
+    <Compile Include="06_일반화 메소드\Method.cs" />
+    <Compile Include="07_예외 처리\ExceptionClass.cs" />
+    <Compile Include="08_대리자와 이벤트_Delegator, Event\delegatorClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="1_interface_Ex\Interface.cs" />
-    <Compile Include="2_virtual, overiding_Ex_가상키워드\ArmorSuite.cs" />
+    <Compile Include="01_interface_Ex\Interface.cs" />
+    <Compile Include="02_virtual, overiding_Ex_가상키워드\ArmorSuite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -81,6 +83,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="09_람다식\" />
+    <Folder Include="10_LINQ\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

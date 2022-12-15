@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using practice._5_배열과_컬렉션_그리고_인덱서;
 using practice._6_일반화_메소드;
+using practice._8_대리자와_이벤트_Delegator__Event;
 
 namespace practice
 {
@@ -21,7 +22,7 @@ namespace practice
         //public Form1()
         //{
         //    InitializeComponent();
-        //    Person myPerson = new Person();
+        //    Person<IAnimal> myPerson = new Person<IAnimal>();
         //    Lion myLion = new Lion();
         //    Camel myCamel = new Camel();
 
@@ -101,7 +102,7 @@ namespace practice
         //{
         //    property py = new property();
         //}
-        #endregion 
+        #endregion
 
         #region 배열과 컬렉션 그리고 인덱서
         //public Form1()
@@ -123,17 +124,33 @@ namespace practice
         #endregion
 
         #region 일반화 메소드
+        //public Form1()
+        //{
+        //    int[] source = { 1, 2, 3, 4, 5 };
+        //    int[] target = new int[source.Length];
+        //    Method method = new Method();
+        //    method.CopyArray<int>(source, target);
+        //    foreach (int a in target)
+        //    {
+        //        Console.WriteLine(a);
+        //    }
+
+        //    ProgramEx.MainFunc();
+        //}
+        #endregion
+
+        #region 대리자와 이벤트_Delegator, Event
         public Form1()
         {
-            int[] source = { 1, 2, 3, 4, 5 };
-            int[] target = new int[source.Length];
-            Method method = new Method();
-            method.CopyArray<int>(source, target);
-            foreach(int a in target)
-            {
-                Console.WriteLine(a);
-            }
+            delegatorClass dlclass = new delegatorClass();
+            dlclass.DelSendEvent += new delegatorClass.myDelegate(Receive);
+        }
+        private void Receive(object obj,object data)
+        {
+
         }
         #endregion
+
+        /* 링크부터 시작하면 됨 */
     }
 }

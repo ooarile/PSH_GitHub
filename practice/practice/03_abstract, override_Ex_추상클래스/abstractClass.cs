@@ -19,9 +19,9 @@ namespace practice.abstract_Ex_추상클래스
     /* Virtual(가상 키워드), Abstract(추상 키워드), Interface 차이점
      * https://hongjinhyeon.tistory.com/93
      * 결론
-        -Vritual은 하나의 기능을 하는 완전한 클래스이며, 파생클래스에서 상속해서 추가적인 기능추가 및 virtual 한정자가 달린 것을 재정의해서
+        -Vritual(가상 키워드)은 하나의 기능을 하는 완전한 클래스이며, 파생클래스에서 상속해서 추가적인 기능추가 및 virtual 한정자가 달린 것을 "재정의"해서
          사용가능합니다.
-        -Abstract는 여러개의 파생 클래스에서 공유할 기본 클래스의 공통적인 정의만 하고 ,파생클래스에서 abstract 한정자가 달린 것을
+        -Abstract(추상 키워드)는 여러개의 파생 클래스에서 공유할 기본 클래스의 공통적인 정의만 하고 ,파생클래스에서 abstract 한정자가 달린 것을
         모두 재정의(필수)해야 합니다.
         -Interface에서도 abstract와 비슷하지만 멤버변수를 사용할 수 없습니다. 
         보통 abstract는 개념적으로 계층적인 구조에서 사용이 되며(동물이나 어떤 사물의 계층적인 구조가있을때) Interface는 서로다른 계층이나

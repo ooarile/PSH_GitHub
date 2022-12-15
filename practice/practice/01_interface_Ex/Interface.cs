@@ -27,40 +27,13 @@ namespace practice.interface_Ex
 
 
     #region 인터페이스 사용 할 경우
-    //interface IAnimal
-    //{
-    //    void Eat();
-    //}
+    interface IAnimal
+    {
+        void Eat();
+    }
 
 
-    //internal class Person : IAnimal
-    //{
-    //    public void Eat()
-    //    {
-    //        Console.WriteLine("밥을 먹습니다.");
-    //    }
-    //}
-
-    //class Lion : IAnimal
-    //{
-    //    public void Eat()
-    //    {
-    //        Console.WriteLine("고기를 먹습니다.");
-    //    }
-    //}
-
-    //class Camel
-    //{
-    //    public void Eat()
-    //    {
-    //        Console.WriteLine("풀을 먹습니다.");
-    //    }
-    //}
-    #endregion
-
-
-    #region 인터페이스 사용 안할 경우
-    internal class Person 
+    internal class Person<T> : IAnimal where T : IAnimal
     {
         public void Eat()
         {
@@ -68,7 +41,7 @@ namespace practice.interface_Ex
         }
     }
 
-    class Lion 
+    class Lion : IAnimal
     {
         public void Eat()
         {
@@ -83,5 +56,32 @@ namespace practice.interface_Ex
             Console.WriteLine("풀을 먹습니다.");
         }
     }
+    #endregion
+
+
+    #region 인터페이스 사용 안할 경우
+    //internal class Person 
+    //{
+    //    public void Eat()
+    //    {
+    //        Console.WriteLine("밥을 먹습니다.");
+    //    }
+    //}
+
+    //class Lion 
+    //{
+    //    public void Eat()
+    //    {
+    //        Console.WriteLine("고기를 먹습니다.");
+    //    }
+    //}
+
+    //class Camel
+    //{
+    //    public void Eat()
+    //    {
+    //        Console.WriteLine("풀을 먹습니다.");
+    //    }
+    //}
     #endregion
 }

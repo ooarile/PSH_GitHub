@@ -5,3 +5,10 @@ GitHub -> Local로 내려받기
 
 GitHub 자료 삭제 법 : https://ssimplay.tistory.com/403
 
+
+git init
+git add .
+git commit -m "`커밋할 내용`"
+git remote add origin `Git repository 주소`
+git push -u origin master
+
