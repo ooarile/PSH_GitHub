@@ -13,6 +13,8 @@ using System.Windows.Forms;
 using practice._5_배열과_컬렉션_그리고_인덱서;
 using practice._6_일반화_메소드;
 using practice._8_대리자와_이벤트_Delegator__Event;
+using practice._10_LINQ;
+using practice._11_리플렉션과_애트리뷰트;
 
 namespace practice
 {
@@ -140,17 +142,34 @@ namespace practice
         #endregion
 
         #region 대리자와 이벤트_Delegator, Event
-        public Form1()
-        {
-            delegatorClass dlclass = new delegatorClass();
-            dlclass.DelSendEvent += new delegatorClass.myDelegate(Receive);
-        }
-        private void Receive(object obj,object data)
-        {
+        //public Form1()
+        //{
+        //    delegatorClass dlclass = new delegatorClass();
+        //    dlclass.DelSendEvent += new delegatorClass.myDelegate(Receive);
+        //}
+        //private void Receive(object obj,object data)
+        //{
 
-        }
+        //}
+        #endregion      
+
+        #region Linq
+        //public Form1()
+        //{
+        //    LingQ_EX lq = new LingQ_EX();
+        //    lq.func();
+        //}
         #endregion
 
-        /* 링크부터 시작하면 됨 */
+        #region 리플렉션과 애트리뷰터
+        public Form1()
+        {
+            ReflectionClass reflection = new ReflectionClass();
+            reflection.main();
+
+            MyClass mc = new MyClass();
+            mc.OldMethod();
+        }
+        #endregion
     }
 }

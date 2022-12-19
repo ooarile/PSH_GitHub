@@ -52,6 +52,8 @@
     <Compile Include="06_일반화 메소드\Method.cs" />
     <Compile Include="07_예외 처리\ExceptionClass.cs" />
     <Compile Include="08_대리자와 이벤트_Delegator, Event\delegatorClass.cs" />
+    <Compile Include="10_LINQ\LingQ_EX.cs" />
+    <Compile Include="11_리플렉션과 애트리뷰트\ReflectionClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="09_람다식\" />
-    <Folder Include="10_LINQ\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
