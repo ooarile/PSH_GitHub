@@ -89,7 +89,7 @@ namespace practice._10_LINQ
             var listProfile__ = from profile in arrProfile
                                 join product in arrProduct
                                 on profile.Name equals product.Star into ps
-                                from sub_product in ps.DefaultIfEmpty(new ArrProduct(){ Product = "없음"})
+                                from sub_product in ps.DefaultIfEmpty(new ArrProduct() { Product = "없음" })
                                 orderby profile.Height descending
                                 select new { Name = profile.Name, Work = sub_product.Product, Height = profile.Height };
 
@@ -98,7 +98,7 @@ namespace practice._10_LINQ
                 Console.WriteLine("{0},{1},{2}", i.Name, i.Work, i.Height);
 
             }
-#endregion
+            #endregion
 
         }
     }

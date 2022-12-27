@@ -15,11 +15,18 @@ using practice._6_일반화_메소드;
 using practice._8_대리자와_이벤트_Delegator__Event;
 using practice._10_LINQ;
 using practice._11_리플렉션과_애트리뷰트;
+using practice._12_Dynamic;
+using System.Threading;
+using practice._14_스레드와_태스크;
 
 namespace practice
 {
     public partial class Form1 : Form
     {
+        //Serilog
+        protected Serilog.ILogger _logger = Program.Logger;
+        //_logger.Debug("Hi");
+
         #region 인터페이스 사용 할 경우
         //public Form1()
         //{
@@ -151,7 +158,7 @@ namespace practice
         //{
 
         //}
-        #endregion      
+        #endregion
 
         #region Linq
         //public Form1()
@@ -162,14 +169,50 @@ namespace practice
         #endregion
 
         #region 리플렉션과 애트리뷰터
+        //public Form1()
+        //{
+        //    ReflectionClass reflection = new ReflectionClass();
+        //    reflection.main();
+
+        //    MyClass mc = new MyClass();
+        //    mc.OldMethod();
+        //}
+        #endregion
+
+
+        private bool AppStart ;
+        #region 다이나믹
         public Form1()
         {
-            ReflectionClass reflection = new ReflectionClass();
-            reflection.main();
+            InitializeComponent();
+            DynamicClass dynamic = new DynamicClass();
+            dynamic.Func();
+            AppStart = true;
 
-            MyClass mc = new MyClass();
-            mc.OldMethod();
+            ///* Thread, Task 테스트 */
+            //while (AppStart)
+            //{
+            //    Thread.Sleep(1);
+            //    _logger.Debug("Task Start");
+            //    Task t = Task.Run(() => Processing());
+            //    //Task.Factory.StartNew(() => Processing(), CancellationToken.None, TaskCreationOptions.None, PriorityScheduler.Highest);
+            //}
         }
-        #endregion
+        private void Processing()
+        {
+            _logger.Debug("Task IN");
+
+        }
+            #endregion
+
+            private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 닫기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
