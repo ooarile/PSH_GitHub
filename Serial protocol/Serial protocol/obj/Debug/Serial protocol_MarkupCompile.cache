@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\PSH_Github\Serial protocol\Serial protocol\obj\Debug\
+C:\GitHub\PSH_GitHub\Serial protocol\Serial protocol\obj\Debug\
 Serial_protocol
 none
 false
 DEBUG;TRACE
-C:\PSH_Github\Serial protocol\Serial protocol\App.xaml
+C:\GitHub\PSH_GitHub\Serial protocol\Serial protocol\App.xaml
 3-1456608922
 
-26-1323976308
-144254164478
+27597801813
+1441338368096
 MainWindow.xaml;View\SerialSettingForm.xaml;View\SocketUI.xaml;
 
-False
+True
 

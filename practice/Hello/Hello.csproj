@@ -46,6 +46,14 @@
     <Compile Include="MainApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProtectedClass.cs" />
+    <Compile Include="고급문법\delegate vs 무명메서드.cs" />
+    <Compile Include="고급문법\IndexerClass.cs" />
+    <Compile Include="고급문법\GenericsClass.cs" />
+    <Compile Include="고급문법\람다식.cs" />
+    <Compile Include="기초문법\classClass.cs" />
+    <Compile Include="기초문법\Value Type vs Reference Type.cs" />
+    <Compile Include="기초문법\yieldClass.cs" />
+    <Compile Include="기초문법\전처리기.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

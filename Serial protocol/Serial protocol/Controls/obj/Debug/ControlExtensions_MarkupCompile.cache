@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\PSH_Github\Serial protocol\Serial protocol\Controls\obj\Debug\
+C:\GitHub\PSH_GitHub\Serial protocol\Serial protocol\Controls\obj\Debug\
 ControlExtensions
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 8-1097127168
 
-14-1817851183
+15103926938
 14209946504
 AutoScrollViewer\Themes\Generic.xaml;AutoScrollListBox\Themes\Generic.xaml;DateTimePicker\DateTimePicker.xaml;AutoScrollDataGrid\Themes\Generic.xaml;SlideCheckBox\SlideCheckBox.xaml;ThumbnailListView\ThumbnailListView.xaml;TimeControl\TimeControl.xaml;ZoomImage\ZoomImage.xaml;
 
-False
+True
 

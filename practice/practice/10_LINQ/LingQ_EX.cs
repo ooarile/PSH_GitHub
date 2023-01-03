@@ -80,7 +80,6 @@ namespace practice._10_LINQ
             foreach (var i in listProfile_)
             {
                 Console.WriteLine("{0},{1},{2}", i.Name, i.Work, i.Height);
-
             }
             #endregion
 
